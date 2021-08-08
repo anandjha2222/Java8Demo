@@ -1,0 +1,43 @@
+Functions interfaces that has control on input
+	IntFunction<R>
+	LongFunction<R>
+	DoubleFunction<R>
+Functions interfaces that has control on output
+	ToIntFunction<T>
+	ToLongFunction<T>
+	ToDoubleFunction<T>
+Functions interfaces that has control on input as well as output
+	IntToLongFunction
+	IntToDoubleFunction
+	LongToIntFunction
+	LongToDoubleFunction
+	DoubleToIntFunction
+	DoubleToLongFunction
+Some more BiFunctions
+	ToIntBiFunction<T,U>
+	ToLongBiFunction<T,U>
+	ToDoubleBiFunction<T,U>
+	
+	
+Premitive Consumers
+	IntConsumer
+	LongConsumer
+	DoubleConsumer
+	
+Consumers
+	ObjIntConsumer<T>
+	ObjLongConsumer<T>
+	ObjDoubleConsumer<T>
+	
+	
+In case type of input and output is same for a Function, go for UnaryOperator<T>
+	IntUnaryOperator<T>
+	LongUnaryOperator<T>
+	DoubleUnaryOperator<T>
+	
+In case type of 2 inputs and output is same for a BiFunction, go for BinaryOperator<T>
+	IntBinaryOperator<T>
+	LongBinaryOperator<T>
+	DoubleBinaryOperator<T>
+	
+	
